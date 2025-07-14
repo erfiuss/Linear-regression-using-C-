@@ -18,10 +18,25 @@ In this project we calculate the formula `Y = aX + b`, it helps predict a contin
  a = 0.59
  b = 1.88
  ```
+ ### How to play
+ - Open Folder
+ - Open file (CMakeLists.txt)
+ - Copy this in CMake
+ ```
+ cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
+project (a)
+add_executable (a main.cpp)
+set_property(TARGET a PROPERTY CXX_STANDARD 17)
+```
+- Open file (main.cpp)
+- Open Folder (build)
+ ___
  - 1. New terminal
  - 2. mkdir build
  - 3. cd build
  - 4. cmake ..
  - 5. make
  - 6. ./project name
+ - 7. cin
+ ### Enjoy!
  
