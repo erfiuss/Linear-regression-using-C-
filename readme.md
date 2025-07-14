@@ -18,3 +18,10 @@ In this project we calculate the formula `Y = aX + b`, it helps predict a contin
  a = 0.59
  b = 1.88
  ```
+ - 1. New terminal
+ - 2. mkdir build
+ - 3. cd build
+ - 4. cmake ..
+ - 5. make
+ - 6. ./project name
+ 
